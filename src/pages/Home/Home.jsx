@@ -1,7 +1,8 @@
 import '../../input.css';
+import Header from './Header/Header';
 
 export default function Home() {
     return (
-        <h1 className="text-3xl">Home</h1>
+        <Header />
     );
 };

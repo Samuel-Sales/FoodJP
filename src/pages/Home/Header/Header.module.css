@@ -1,0 +1,36 @@
+:root {
+    --fonteMontserrat: 'Montserrat', sans-serif;
+    --fonteInter: 'Inter', sans-serif;
+    --cor-preto: #292929;
+    --cor-vermelho: #DA2535;
+}
+
+.container {
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: var(--fonteMontserrat);
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo {
+    color: var(--cor-preto);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.titulo__JP {
+    color: var(--cor-vermelho);
+}
+
+.container nav {
+    display: flex;
+    gap: 5.69rem;
+    font-family: var(--fonteInter);
+    color: var(--cor-preto);
+    font-size: 1.5rem;
+    font-weight: 500;
+}

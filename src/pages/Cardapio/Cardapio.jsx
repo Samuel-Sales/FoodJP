@@ -1,5 +1,7 @@
+import style from './Cardapio.module.css';
+
 export default function Cardapio() {
     return (
-        <h1>Cardapio</h1>
+        <h1>Cardápio</h1>
     );
 };
