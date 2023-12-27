@@ -1,0 +1,17 @@
+.botao {
+    border-radius: 0.625rem;
+    background: #DA2535;
+    display: flex;
+    width: 18.25rem;
+    height: 3.75rem;
+    padding: 0.625rem 2.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    color: #FBFBFB;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 3rem;
+}

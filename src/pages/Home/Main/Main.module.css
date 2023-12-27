@@ -1,0 +1,66 @@
+.container {
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 13.44rem;
+}
+
+.container__ComidaOriental {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__ComidaOriental__titulo {
+    color: #292929;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.container__ComidaOriental__texto {
+    color: #292929;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.container__ComidaOriental img {
+    width: 25rem;
+    height: 33.41894rem;
+}
+
+/* Feita de forma Tradicional */
+.container__FeitaDeFormaTradicional {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6.27rem;
+}
+
+.container__FeitaDeFormaTradicional__titulo {
+    color: #292929;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 1.5rem;
+}
+
+.container__FeitaDeFormaTradicional__texto {
+    color: #292929;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 2.5rem;
+}
+
+.container__FeitaDeFormaTradicional__link {
+    color: #DA2535;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration-line: underline;
+}
