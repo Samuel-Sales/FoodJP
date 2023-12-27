@@ -30,6 +30,48 @@ export default function Main() {
                     <Link className={style.container__FeitaDeFormaTradicional__link} to=''>Ler mais sobre o modo de preparo</Link>
                 </div>
             </section>
+
+            <section className={style.container__MaisPopulares}>
+                <p className={style.container__MaisPopulares__titulo}>Mais populares</p>
+                <div className={style.container__MaisPopulares__cards}>
+                    <div className={style.container__MaisPopulares__card}>
+                        <div className={style.container__MaisPopulares__card__img}>
+                            <img src="/Imagens/Prato1.svg" alt="Prato 1" />
+                        </div>
+                        <p className={style.container__MaisPopulares__card__titulo}>Ramen de Frango</p>
+                        <p className={style.container__MaisPopulares__card__texto}>
+                            Lorem ipsum dolor sit amet, <br />
+                            consectetur adipiscing elit.
+                        </p>
+                        <p className={style.container__MaisPopulares__card__preco}>R$ 30</p>
+                    </div>
+
+                    <div className={style.container__MaisPopulares__card}>
+                        <div className={style.container__MaisPopulares__card__img}>
+                            <img src="/Imagens/Prato2.svg" alt="Prato 2" />
+                        </div>
+                        <p className={style.container__MaisPopulares__card__titulo}>Ramen de Frango</p>
+                        <p className={style.container__MaisPopulares__card__texto}>
+                            Lorem ipsum dolor sit amet, <br />
+                            consectetur adipiscing elit.
+                        </p>
+                        <p className={style.container__MaisPopulares__card__preco}>R$ 30</p>
+                    </div>
+
+                    <div className={style.container__MaisPopulares__card}>
+                        <div className={style.container__MaisPopulares__card__img}>
+                            <img src="/Imagens/Prato3.svg" alt="Prato 3" />
+                        </div>
+                        <p className={style.container__MaisPopulares__card__titulo}>Ramen de Frango</p>
+                        <p className={style.container__MaisPopulares__card__texto}>
+                            Lorem ipsum dolor sit amet, <br />
+                            consectetur adipiscing elit.
+                        </p>
+                        <p className={style.container__MaisPopulares__card__preco}>R$ 30</p>
+                    </div>
+                </div>
+
+            </section>
         </main>
     );
 };
