@@ -72,6 +72,32 @@ export default function Main() {
                 </div>
 
             </section>
+
+            <section className={style.container__Comentarios}>
+                <p className={style.container__Comentarios__titulo}>Comentários</p>
+                <div className={style.container__Comentarios__cards}>
+                    <div className={style.container__Comentarios__card}>
+                        <img src="/Imagens/Profile1.svg" alt="Imagem da mulher" />
+                        <p className={style.container__Comentarios__Nome}>Daniele Almeida</p>
+                        <p className={style.container__Comentarios__texto}>
+                            Ótimo serviço! Encantada com a <br />
+                            qualidade dos pratos.
+                        </p>
+                        <img src="/Imagens/estrelas.svg" alt="Nota" />
+                    </div>
+
+                    <div className={style.container__Comentarios__card}>
+                        <img src="/Imagens/Profile2.svg" alt="Imagem do homem" />
+                        <p className={style.container__Comentarios__Nome}>Ricardo França</p>
+                        <p className={style.container__Comentarios__texto}>
+                            Não é apenas a comida excelente, o <br />
+                            serviço torna a experiência especial.
+                        </p>
+                        <img src="/Imagens/estrelas.svg" alt="Nota" />
+                    </div>
+                </div>
+
+            </section>
         </main>
     );
 };
