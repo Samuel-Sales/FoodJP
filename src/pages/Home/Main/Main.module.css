@@ -144,6 +144,8 @@
     margin: 6.25rem 0rem 3rem 0rem;
     color: #292929;
     font-size: 3rem;
+    font-weight: 600;
+    line-height: 123%;
 }
 
 .container__Comentarios__cards {

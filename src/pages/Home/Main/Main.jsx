@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import BotaoCardapio from '../../../Components/BotaoCardapio/BotaoCardapio';
 import style from './Main.module.css';
+import Busca from '../../../Components/Busca/Busca';
 
 export default function Main() {
     return (
@@ -98,6 +99,8 @@ export default function Main() {
                 </div>
 
             </section>
+
+            <Busca />
         </main>
     );
 };
