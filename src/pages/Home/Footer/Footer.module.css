@@ -1,0 +1,117 @@
+.container {
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 6.25rem 0rem 2rem 0rem; */
+    margin-top: 6.25rem;
+    margin-bottom: 6.31rem;
+}
+
+.titulo {
+    color: #292929;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-right: 3.19rem;
+}
+
+.jp {
+    color: #DA2535;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.contato {
+    margin-right: 11.25rem;
+}
+
+.contato__titulo {
+    color: #292929;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 123%;
+    margin-bottom: 1.5rem;
+}
+
+.contato__telefone {
+    color: #616161;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0.01688rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.contato__email {
+    color: #616161;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0.01688rem;
+}
+
+.sobreNos {
+    margin-right: 9.44rem;
+}
+
+.sobreNos__titulo {
+    color: #292929;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 123%;
+    margin-bottom: 1.5rem;
+}
+
+.sobreNos__menu, .sobreNos__valores {
+    color: #616161;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0.01688rem;
+    margin-bottom: 0.5rem;
+}
+
+.sobreNos__pagina {
+    color: #616161;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0.01688rem;
+}
+
+.servicos__titulo {
+    color: #292929;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 123%;
+    margin-bottom: 1.5rem;
+}
+
+.servicos__entrega {
+    color: #616161;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0.01688rem;
+    margin-bottom: 0.5rem;
+}
+
+.servicos__retirada {
+    color: #616161;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0.01688rem;
+}
