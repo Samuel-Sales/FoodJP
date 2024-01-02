@@ -51,7 +51,7 @@ export default function Main() {
                         <div className={style.container__MaisPopulares__card__img}>
                             <img src="/Imagens/Prato2.svg" alt="Prato 2" />
                         </div>
-                        <p className={style.container__MaisPopulares__card__titulo}>Ramen de Frango</p>
+                        <p className={style.container__MaisPopulares__card__titulo}>Ramen Apimentado</p>
                         <p className={style.container__MaisPopulares__card__texto}>
                             Lorem ipsum dolor sit amet, <br />
                             consectetur adipiscing elit.
@@ -63,7 +63,7 @@ export default function Main() {
                         <div className={style.container__MaisPopulares__card__img}>
                             <img src="/Imagens/Prato3.svg" alt="Prato 3" />
                         </div>
-                        <p className={style.container__MaisPopulares__card__titulo}>Ramen de Frango</p>
+                        <p className={style.container__MaisPopulares__card__titulo}>Ramen Tradicional</p>
                         <p className={style.container__MaisPopulares__card__texto}>
                             Lorem ipsum dolor sit amet, <br />
                             consectetur adipiscing elit.
