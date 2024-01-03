@@ -1,5 +1,6 @@
 import AppRoutes from "./Routes"
-// import './input.css';
+import './input.css';
+import './reset.css';
 
 function App() {
   return (
