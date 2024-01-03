@@ -8,10 +8,10 @@ export default function Header() {
     return (
         <header className={style.container}>
             <p className={style.titulo}>Food<span className={style.titulo__JP}>JP</span></p>
-            <nav>
-                <Link to='/'>Inicio</Link>
-                <Link to='Cardapio'>{<Cardapio />}</Link>
-                <Link to='Sobre'>{<Sobre />}</Link>
+            <nav className={style.paginas}>
+                <Link className={style.paginas__link} to='/'>Inicio</Link>
+                <Link className={style.paginas__link} to='Cardapio'>{<Cardapio />}</Link>
+                <Link className={style.paginas__link} to='Sobre'>{<Sobre />}</Link>
             </nav>
             <BotaoLogin />
         </header>
