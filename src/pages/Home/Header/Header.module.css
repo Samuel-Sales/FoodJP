@@ -30,11 +30,11 @@
     display: flex;
     gap: 5.69rem;
     font-family: var(--fonteInter);
-    color: var(--cor-preto);
     font-size: 1.5rem;
     font-weight: 500;
 }
 
 .paginas__link {
     text-decoration: none;
+    color: var(--cor-preto);
 }
